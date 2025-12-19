@@ -1,4 +1,4 @@
-package com.example.questapi.model
+package com.example.questapi.model.data
 
 data class DetailSiswa(
     val id : Int = 0,

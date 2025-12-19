@@ -1,4 +1,4 @@
-package com.example.questapi.model
+package com.example.questapi.model.data
 
 data class UiStateSiswa(
     val detailSiswa : DetailSiswa = DetailSiswa(),
