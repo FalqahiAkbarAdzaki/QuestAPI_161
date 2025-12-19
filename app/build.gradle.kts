@@ -53,6 +53,7 @@ dependencies {
 
     implementation(libs.retrofit)
     implementation(libs.kotlinx.serialization.json)
+    implementation(libs.retrofit.serialization)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

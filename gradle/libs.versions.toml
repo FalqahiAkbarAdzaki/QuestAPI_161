@@ -11,6 +11,7 @@ composeBom = "2024.09.00"
 
 retrofit = "2.11.0"
 serialization = "1.9.0"
+retrofit-serialization = "1.0.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -30,6 +31,7 @@ androidx-compose-material3 = { group = "androidx.compose.material3", name = "mat
 
 retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json",version.ref = "serialization" }
+retrofit-serialization = { module = "com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter",version.ref = "retrofit-serialization" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
