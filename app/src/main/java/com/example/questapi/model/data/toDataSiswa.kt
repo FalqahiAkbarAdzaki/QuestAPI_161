@@ -1,7 +1,6 @@
-package com.example.questapi.model.data
+@file:Suppress("ktlint:standard:filename")
 
-import com.example.questapi.model.data.DataSiswa
-import com.example.questapi.model.data.DetailSiswa
+package com.example.questapi.model.data
 
 fun DetailSiswa.toDataSiswa(): DataSiswa =
     DataSiswa(
