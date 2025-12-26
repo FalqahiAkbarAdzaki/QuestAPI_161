@@ -48,11 +48,10 @@ fun EntrySiswaScreen(
                 title = stringResource(DestinasiEntry.titleRes),
                 canNavigateBack = true,
                 navigateUp = navigateBack,
-                scrollBehavior = scrollBehavior,
+                scrollBehavior = scrollBehavior
             )
-        },
+        }
     ) { innerPadding ->
-
         EntrySiswaBody(
             uiStateSiswa = viewModel.uiStateSiswa,
             onSiswaValueChange = viewModel::updateUiState,
