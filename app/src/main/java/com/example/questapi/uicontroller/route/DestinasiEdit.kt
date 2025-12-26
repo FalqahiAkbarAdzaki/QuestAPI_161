@@ -10,3 +10,4 @@ object DestinasiEdit : DestinasiNavigasi {
     const val itemIdArg = "idSiswa"
     val routeWithArgs = "$route/{$itemIdArg}"
 }
+
